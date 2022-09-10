@@ -1,4 +1,4 @@
-# DADS7202 Project 1
+# Capybarista Group
 
 # Project Hypothesis
 We believe that between Traditional Machine Learning and MLP (Multilayer Perceptions), Traditional ML will have a better result than MLP. 
@@ -98,4 +98,8 @@ The results showed that the traditional model provides better accuracy compared 
 - Liang, D., Lu, C.-C., Tsai, C.-F., and Shih, G.-A. (2016) Financial Ratios and Corporate Governance Indicators in Bankruptcy Prediction: A Comprehensive Study.
 - European Journal of Operational Research, vol. 252, no. 2, pp. 561-572. 
 - <https://www.sciencedirect.com/science/article/pii/S0377221716000412>
+
+
+### This project is a part of  DADS7202 Data Analytics and Data Science. National Institute of Development Administration.
+
 
