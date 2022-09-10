@@ -1,12 +1,12 @@
 # DADS7202 Project 1
 
-## Project Hypothesis
-We believe that between traditional ML and MLP, MLP will not going to have a better result than traditional ML
+# Project Hypothesis
+We believe that between Traditional Machine Learning and MLP (Multilayer Perceptions), Traditional ML will have a better result than MLP. 
 
-## Introduction
-This homework is to predict bankruptcy by using binary classification  
+# Introduction
+This project aims to predict bankruptcy by comparing results between various traditional machine learning models and MLP using Keras to perform binary classification. 
 
-## Data
+# Data
 1. Data Source:\
     The data were collected from the Taiwan Economic Journal for the years 1999 to 2009.
     Company bankruptcy was defined based on the business regulations of the Taiwan Stock Exchange 
@@ -16,7 +16,7 @@ This homework is to predict bankruptcy by using binary classification
 
 4. Data Splitting:\
     We split data into 2 sets which are Train (56%)/Validate (24%)/Test (20%) 
-
+## ML Model
 ## Results on Validated data
  ### ___1.  Accuracy table___
 ![image](https://user-images.githubusercontent.com/88021144/189294004-9ff55d08-5745-4f91-922d-8e236777ab82.png)
@@ -36,8 +36,8 @@ This homework is to predict bankruptcy by using binary classification
 ![image](https://user-images.githubusercontent.com/88021144/189295289-a97d55eb-c1c3-4c78-953d-1f55e1e3e45c.png)
 ## Results on Test  data
 ![image](https://user-images.githubusercontent.com/88021144/189296152-840d88f7-3313-40fa-8f59-2bbaef06dec7.png)
-## Results by (Keras MLP)
- ### ___1.Basic model:___
+# MLP ModelResults by (Keras MLP)
+ ### ___1.Basic model (Model in class):___
   - Sequentail and parameter of model
   
   ![image](https://user-images.githubusercontent.com/33378401/189479365-c8c48931-b67a-49a7-a620-22ab6980f7ac.png)
@@ -78,20 +78,23 @@ This homework is to predict bankruptcy by using binary classification
  
  - Accuracy on test data set = 0.9651
 
- ### ___Summary of MLP___
+ ## ___Summary of MLP___
  ![image](https://user-images.githubusercontent.com/33378401/189479945-10f21630-4881-4c5a-9b50-276d80e06e7a.png)
-
-## References
+ 
+# Summary
+The results showed that the traditional model
+It provides better accuracy compared to Multilayer Perceptions Basic Model, Hyperparameter Tuner by Keras Tuner, and Manual Hyperparameter Model at 8.06%, 1.51% and 1.90%, respectively, which is why Manual Hyperparameter Model is more accurate. Hyperparameter Tuner by Keras Tuner comes in part by adding layers to the model.
+# References
 - <https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction>
 - <https://pycaret.org>
 - <https://pycaret.readthedocs.io/en/stable/index.html>
 
-## Source
+# Source
 - Deron Liang and Chih-Fong Tsai, deronliang '@' gmail.com; cftsai '@' mgt.ncu.edu.tw, National Central University, Taiwan 
 - The data was obtained from UCI Machine Learning Repository:
 - <https://archive.ics.uci.edu/ml/datasets/Taiwanese+Bankruptcy+Prediction>
 
-## Relevant Papers 
+# Relevant Papers 
 - Liang, D., Lu, C.-C., Tsai, C.-F., and Shih, G.-A. (2016) Financial Ratios and Corporate Governance Indicators in Bankruptcy Prediction: A Comprehensive Study.
 - European Journal of Operational Research, vol. 252, no. 2, pp. 561-572. 
 - <https://www.sciencedirect.com/science/article/pii/S0377221716000412>
