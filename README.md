@@ -101,11 +101,11 @@ The results showed that the traditional model provides better accuracy compared 
 - <https://www.sciencedirect.com/science/article/pii/S0377221716000412>
 
 ### Member
-1. 6310422092 (20%) MLP hyperparameter tunner 
-2. 6410414001 (20%) Run AutoML on Dataiku and MLP on Python to compared result with the team & Proofreading
-3. 6410412007 (20%) find model MLP(treebase and linearbase) and give advise to other about the process.
-4. 6410412014 (20%) Find model by use autokeras and azure auto ml to compare with other, review readme.md
-
+1. 6310422089 (20%) Run ML by multi-algorithm comparison via Pycaret
+2. 6310422092 (20%) MLP hyperparameter tunner 
+3. 6410414001 (20%) Run AutoML on Dataiku and MLP on Python to compared result with the team & Proofreading
+4. 6410412007 (20%) find model MLP(treebase and linearbase) and give advise to other about the process.
+5. 6410412014 (20%) Find model by use autokeras and azure auto ml to compare with other, review readme.md
 ### This project is a part of  DADS7202 Data Analytics and Data Science. National Institute of Development Administration.
 
 
