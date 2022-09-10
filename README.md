@@ -82,8 +82,8 @@ This project aims to predict bankruptcy by comparing results between various tra
  ![image](https://user-images.githubusercontent.com/33378401/189479945-10f21630-4881-4c5a-9b50-276d80e06e7a.png)
  
 # Summary
-The results showed that the traditional model
-It provides better accuracy compared to Multilayer Perceptions Basic Model, Hyperparameter Tuner by Keras Tuner, and Manual Hyperparameter Model at 8.06%, 1.51% and 1.90%, respectively, which is why Manual Hyperparameter Model is more accurate. Hyperparameter Tuner by Keras Tuner comes in part by adding layers to the model.
+The results showed that the traditional model provides better accuracy compared to Multilayer Perceptions Basic Model, Hyperparameter Tuner by Keras Tuner and Manual Hyperparameter Model resulting at 8.06%, 1.51% and 1.90% respectively. The Manual Hyperparameter show higher accuracy than Hyperparameter Tuner by Keras Tuner due to manually tuning by adding layers to the model.
+
 # References
 - <https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction>
 - <https://pycaret.org>
