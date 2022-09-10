@@ -11,10 +11,10 @@ This project aims to predict bankruptcy by comparing results between various tra
     The data were collected from the Taiwan Economic Journal for the years 1999 to 2009.
     Company bankruptcy was defined based on the business regulations of the Taiwan Stock Exchange 
     (Y = Bankrupt (0/1), X has 95 features). 
-2. Data Preparation: 
-3. Data Pre-Processing: 
+2. Data Pre-Processing:\
+   Use Random over sampler method to adjust imbalance data label.
 
-4. Data Splitting:\
+3. Data Splitting:\
     We split data into 2 sets which are Train (56%)/Validate (24%)/Test (20%) 
 ## ML Model
 ## Results on Validated data
