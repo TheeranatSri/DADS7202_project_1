@@ -1,4 +1,5 @@
 # Capybarista Group
+![image](https://user-images.githubusercontent.com/88021144/189484849-c35bf66e-6bef-4b57-9e66-03133e2d0def.png)
 
 # Project Hypothesis
 We believe that between Traditional Machine Learning and MLP (Multilayer Perceptions), Traditional ML will have a better result than MLP. 
