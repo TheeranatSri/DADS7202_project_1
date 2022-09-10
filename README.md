@@ -16,7 +16,7 @@ This homework is to predict bankruptcy by using binary classification
 4. Data Splitting:\
     We split data into 2 sets which are Train (56%)/Validate (24%)/Test (20%) 
 
-## Results on Validated data
+## Results on Validated data (ML)
  ### ___1.  Accuracy table___
 ![image](https://user-images.githubusercontent.com/88021144/189294004-9ff55d08-5745-4f91-922d-8e236777ab82.png)
  ### ___2.  Mean and Standard deviation for 10 Fold___
@@ -33,9 +33,28 @@ This homework is to predict bankruptcy by using binary classification
  ![image](https://user-images.githubusercontent.com/88021144/189295264-676e80eb-ef4d-410d-a8ee-2a1b2b9c3473.png)
 ### ___8.  Feature Importance___
 ![image](https://user-images.githubusercontent.com/88021144/189295289-a97d55eb-c1c3-4c78-953d-1f55e1e3e45c.png)
-## Results on Test  data
+## Results on Test  data (ML)
 ![image](https://user-images.githubusercontent.com/88021144/189296152-840d88f7-3313-40fa-8f59-2bbaef06dec7.png)
 
+## Results by (Keras MLP)
+###___1.Base model:
+  - Sequentail and parameter of base model
+
+  - Accuracy on train and validate data set
+  
+  - Accuracy on test data set
+  
+###___2.Hyperparameter model by keras tuner:
+  - Tuner parameter
+  
+  - Accuracy on train and validate data set (300 trial and total elapsed time 1 hour 33 minute.!!!)
+  
+  - Sequentail and parameter of the best val_accuracry model
+  
+  - Accuracy on test data set compare with base model
+  
+  - Tensorboard for review hyperparameter of 300 trial
+  
 ## References
 - <https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction>
 - <https://pycaret.org>
