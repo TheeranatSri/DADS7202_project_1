@@ -37,7 +37,7 @@ This project aims to predict bankruptcy by comparing results between various tra
 ![image](https://user-images.githubusercontent.com/88021144/189295289-a97d55eb-c1c3-4c78-953d-1f55e1e3e45c.png)
 ## Results on Test  data
 ![image](https://user-images.githubusercontent.com/88021144/189296152-840d88f7-3313-40fa-8f59-2bbaef06dec7.png)
-# MLP ModelResults by (Keras MLP)
+# MLP Model Results by (Keras MLP)
  ### ___1.Basic model (Model in class):___
   - Sequentail and parameter of model
   
@@ -54,7 +54,7 @@ This project aims to predict bankruptcy by comparing results between various tra
   
   ![image](https://user-images.githubusercontent.com/33378401/189472748-785212e8-970f-462e-bafb-dbd608f812cf.png)
   
-  - Accuracy on train and validate data set (300 trial and total elapsed time 1 hour 33 minute.!!!)
+  - Accuracy on train and validate data set (300 trials and total elapsed time 1 hour 33 minutes!!!.)
   
   ![image](https://user-images.githubusercontent.com/33378401/189472777-e5a61973-c6b6-446d-a659-ceac2a8d480d.png)
   
@@ -64,7 +64,7 @@ This project aims to predict bankruptcy by comparing results between various tra
   
   - Accuracy on test data set = 0.9560
   
-  - Tensorboard for review hyperparameter of 300 trial
+  - Tensorboard for review hyperparameter of 300 trials
   
   ![image](https://user-images.githubusercontent.com/33378401/189472793-eaca9780-c300-419e-8d97-f63e351229c1.png)
   
